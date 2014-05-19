@@ -1,4 +1,6 @@
 .DS_Store
+platforms
+plugins
 tags
 
 syntax: glob
