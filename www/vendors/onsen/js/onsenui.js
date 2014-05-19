@@ -802,7 +802,9 @@ limitations under the License.
 								this.adjustForiOS7();
 							}
 						} else {
-							document.addEventListener("deviceready", this.checkiOS7.bind(this), false);
+						  setTimeout(function() {
+							  document.addEventListener("deviceready", this.checkiOS7.bind(this), false);
+						  }.bind(this), 200);
 						}
 					},
 
