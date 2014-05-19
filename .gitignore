@@ -1,0 +1,9 @@
+.DS_Store
+tags
+
+syntax: glob
+
+*.sw?
+*~
+
+syntax: regexp
